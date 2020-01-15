@@ -43,8 +43,9 @@ html {
 }
 
 .col-black {
-  color: black;
+  color: black !important;
 }
+
 
 .font-Ubuntu {
   font-family: 'Ubuntu', sans-serif;
@@ -77,6 +78,31 @@ html {
 
 .sections-font-size {
   font-size: 1.5rem;
+  color: rgb(139, 139, 139);
+}
+
+.section-info-font-size {
+  font-size: 2rem;
+}
+
+.p-font-size {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.p-info-font-size {
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.a-font-size {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.a-font-size:hover {
+  text-decoration-color: red;
+  color: black;
 }
 
 .search-container {
@@ -105,4 +131,47 @@ time {
 
 .menu-lg-screen a:hover {
   color: rgb(255, 47, 47);
+}
+
+.info-left-bottom {
+  height: 35px;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  left: 0;
+  line-height: 35px;
+}
+
+.color-hover-red-link:hover {
+  color: rgb(255, 47, 47) !important;
+}
+
+.color-hover-black-link:hover {
+  color: black;
+}
+
+.color-underline-red-hover:hover {
+  text-decoration-color: red;
+  text-decoration-style: solid;
+}
+
+.color-bk-gray {
+  background-color: rgb(241, 241, 241);
+}
+
+.line-h-25 {
+  line-height: 25px;
+}
+
+.line-h-20 {
+  line-height: 20px;
+}
+
+.btn-primary {
+  background-color: rgb(224, 224, 255);
+  border-color: rgb(243, 243, 247);
+}
+
+.line-h-15 {
+  line-height: 15px;
 }
