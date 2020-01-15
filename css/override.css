@@ -1,0 +1,108 @@
+html {
+  font-size: 62.5%;
+}
+
+.container-1310 {
+  max-width: 1310px;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.news-font-size {
+  font-size: 5rem;
+}
+
+.color-bk-red {
+  background-color: rgb(255, 47, 47);
+}
+
+.white-space-no-wrap {
+  white-space: nowrap;
+}
+
+.btn-white {
+  background-color: white;
+  border: 1px solid rgb(241, 241, 241);
+}
+
+.btn-font-size {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.col-red {
+  color: rgb(255, 47, 47);
+}
+
+.col-white {
+  color: white;
+}
+
+.col-black {
+  color: black;
+}
+
+.font-Ubuntu {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.menu-dropdown-img {
+  color: rgb(207, 207, 207);
+  font-size: 2.5rem;
+}
+
+.fa {
+  color: inherit;
+}
+
+.dropdown-menu {
+  font-size: 1.6rem;
+  min-width: 18rem;
+}
+
+.dropdown-item {
+  font-weight: bold;
+}
+
+.search-input {
+  background-color: transparent;
+  border-radius: 3px;
+  border: none;
+  width: 100%;
+}
+
+.sections-font-size {
+  font-size: 1.5rem;
+}
+
+.search-container {
+  max-width: 150px;
+}
+
+.search-container-lg {
+  width: 100px;
+}
+
+time {
+  font-size: 1.25rem;
+}
+
+.corner {
+  height: 15px;
+  width: 80px;
+  right: 0;
+  top: 75px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 16% 100%);
+}
+
+.w-90 {
+  max-width: 90%;
+}
+
+.menu-lg-screen a:hover {
+  color: rgb(255, 47, 47);
+}
