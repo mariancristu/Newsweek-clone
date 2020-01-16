@@ -39,13 +39,12 @@ html {
 }
 
 .col-white {
-  color: white;
+  color: white !important;
 }
 
 .col-black {
   color: black !important;
 }
-
 
 .font-Ubuntu {
   font-family: 'Ubuntu', sans-serif;
@@ -174,4 +173,28 @@ time {
 
 .line-h-15 {
   line-height: 15px;
+}
+
+.img-size-color {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 47, 47);
+}
+
+.add-margin {
+  margin-top: 100px;
+}
+
+.position-sticky-o {
+  height: min-content;
+  position: unset;
+  top: 0;
+}
+
+@media only screen and (min-width: 992px) {
+  .position-sticky-o {
+    height: min-content;
+    position: sticky;
+    top: 0;
+  }
 }

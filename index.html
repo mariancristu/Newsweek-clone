@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="pl-0 pr-0 d-lg-none g-xl-none">
+    <div id="small-nav-bar" class="pl-0 pr-0 d-lg-none g-xl-none fixed-top">
         <div class="d-flex justify-content-between color-bk-red pt-2 pb-2 align-items-center">
             <div class="col pr-0">
                 <span class="name font-Ubuntu">Newsweek</span>
@@ -52,7 +52,7 @@
             </div>
         </div>
     </div>
-    <div class="pl-0 pr-0 d-none d-lg-block container-1310 container position-relative">
+    <div id="big-nav-bar" class="pl-0 pr-0 d-none d-lg-block container-1310 container position-relative">
         <div class="w-100 color-bk-red d-flex justify-content-around font-Ubuntu col-white">
             <div class="col align-self-end pb-4">
                 <time datetime="2008-02-14">Wed, Jan 15, 2020</time>
@@ -124,9 +124,9 @@
         </div>
     </div>
 
-    <div class="container container-1310 pt-4 pl-5 pr-5 font-Ubuntu sections-font-size font-weight-bold">
+    <div id="main-div" class="container container-1310 pt-4 pl-5 pr-5 font-Ubuntu sections-font-size font-weight-bold">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 d-flex flex-column order-2 order-md-1">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 d-flex flex-column order-2 order-md-1 position-sticky-o ">
                 <span class="pb-2">FEATURED STORIES</span>
                 <div class="w-100 pb-4">
                     <div class="position-relative">
@@ -281,7 +281,7 @@
                         glorious days there will be before the next debate.</p>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-5 order-1 order-md-2 d-flex flex-column">
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-5 order-1 order-md-2 d-flex flex-column position-sticky-o ">
                 <span class="pb-2">TOP STORY</span>
                 <div class="w-100 pb-4">
                     <div class="position-relative">
@@ -551,7 +551,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 order-3 order-md-3 d-flex flex-column">
+            <div
+                class="col-xs-12 col-sm-12 col-md-12 col-lg-3 order-3 order-md-3 d-flex flex-column position-sticky-o ">
                 <!-- Opinion -->
                 <div class="mb-4">
                     <span class="d-block pb-2">OPINION</span>
@@ -723,8 +724,8 @@
                     </div>
                 </div>
                 <!-- Sponsored -->
-                <div>
-                    <div class="w-100 pb-4">
+                <div class="row">
+                    <div class="w-100 pb-4 border col-10 offset-1 col-sm-6 offset-sm-3 col-lg-12 offset-lg-0">
                         <div class="position-relative mb-3">
                             <img class="w-100"
                                 src="https://d.newsweek.com/en/full/1556493/ohio-northern-university-pettit-college-law.jpg?w=343&h=229&f=83cc4a2b96cbd472e102cf04f99fc5be"
@@ -735,18 +736,101 @@
                             </div>
                         </div>
                         <a class="col-black color-hover-black-link color-underline-red-hover" href="">
-                            <p class="section-info-font-size line-h-20">Have you thought about a career in law? If so,
+                            <p class="section-info-font-size line-h-20 d-block pl-4 pr-4">Have you thought about a
+                                career in
+                                law? If so,
                                 where
                                 should you get qualified?</p>
                         </a>
-                        <p class="font-weight-normal p-font-size">The rewards for a career in the legal profession are
+                        <p class="font-weight-normal p-font-size d-block pl-4 pr-4">The rewards for a career in the
+                            legal
+                            profession are
                             many and varied, and demand for lawyers is high. So which schools produce the best lawyers?
+                        </p>
+                    </div>
+                    <div
+                        class="mt-4 mb-4 border color-bk-gray pl-3 pt-3 pb-3 col-10 offset-1 col-md-4 offset-md-4 col-lg-10 offset-lg-1">
+                        <div class="d-flex">
+                            <img class="d-block img-size-color" src="https://g.newsweek.com/www/images/logo-n1.svg"
+                                alt="">
+                            <span class="d-block ml-4 col-black">Sign up for our Newsletter</span>
+                        </div>
+                        <button
+                            class="btn btn-secondary sections-font-size font-Ubuntu font-weight-bold col-white mt-4 mb-4 p-2">SIGN
+                            UP
+                            ></button>
+                        <a class="d-block p-font-size text-decoration-none color-hover-black-link" href="">Update your
+                            preferences »</a>
+                    </div>
+                    <div class="w-100 pb-4 border mb-4 col-10 offset-1 col-sm-6 offset-sm-3 col-lg-12 offset-lg-0">
+                        <div class="position-relative mb-3">
+                            <img class="w-100"
+                                src="https://d.newsweek.com/en/full/1556493/ohio-northern-university-pettit-college-law.jpg?w=343&h=229&f=83cc4a2b96cbd472e102cf04f99fc5be"
+                                alt="">
+                            <div class="position-absolute info-left-bottom text-center pr-3 pl-3">
+                                <span>SPONSORED
+                                    INSIGHT</span>
+                            </div>
+                        </div>
+                        <a class="col-black color-hover-black-link color-underline-red-hover" href="">
+                            <p class="section-info-font-size line-h-20 d-block pl-4 pr-4">Have you thought about a
+                                career in
+                                law? If so,
+                                where
+                                should you get qualified?</p>
+                        </a>
+                        <p class="font-weight-normal p-font-size d-block pl-4 pr-4">The rewards for a career in the
+                            legal
+                            profession are
+                            many and varied, and demand for lawyers is high. So which schools produce the best lawyers?
+                        </p>
+                    </div>
+                    <div class="w-100 pb-4 border mb-4 col-10 offset-1 col-sm-6 offset-sm-3 col-lg-12 offset-lg-0">
+                        <div class="position-relative mb-3">
+                            <img class="w-100"
+                                src="https://d.newsweek.com/en/full/1556493/ohio-northern-university-pettit-college-law.jpg?w=343&h=229&f=83cc4a2b96cbd472e102cf04f99fc5be"
+                                alt="">
+                            <div class="position-absolute info-left-bottom text-center pr-3 pl-3">
+                                <span>SPONSORED
+                                    INSIGHT</span>
+                            </div>
+                        </div>
+                        <a class="col-black color-hover-black-link color-underline-red-hover" href="">
+                            <p class="section-info-font-size line-h-20 d-block pl-4 pr-4">Have you thought about a
+                                career in
+                                law? If so,
+                                where
+                                should you get qualified?</p>
+                        </a>
+                        <p class="font-weight-normal p-font-size d-block pl-4 pr-4">The rewards for a career in the
+                            legal
+                            profession are
+                            many and varied, and demand for lawyers is high. So which schools produce the best lawyers?
+                        </p>
+                    </div>
+                    <div class="w-100 pb-4 border mb-4 col-10 offset-1 col-sm-6 offset-sm-3 col-lg-12 offset-lg-0">
+                        <div class="position-relative mb-3">
+                            <img class="w-100"
+                                src="https://d.newsweek.com/en/full/1550618/americas-most-responsible-companies-2020.jpg?w=343&h=229&f=228a31483952835462a9e24494fc24f7"
+                                alt="">
+                        </div>
+                        <a class="col-black color-hover-black-link color-underline-red-hover" href="">
+                            <p class="section-info-font-size line-h-20 d-block pl-4 pr-4">America's Most Socially
+                                Responsible Companies 2020</p>
+                        </a>
+                        <p class="font-weight-normal p-font-size d-block pl-4 pr-4">Newsweek partnered with Statista
+                            Inc. to spotlight 300 companies that stand up as good citizens and good neighbors.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+
+        </div>
     </div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -757,6 +841,25 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+    <script>
+        window.onscroll = function () { scroling() };
+
+        function scroling() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById('big-nav-bar').classList.remove('d-lg-block');
+                document.getElementById('small-nav-bar').classList.remove('d-lg-none');
+                document.getElementById('small-nav-bar').classList.remove('d-xl-none');
+                document.getElementById('main-div').classList.add('add-margin');
+            }
+            else {
+                document.getElementById('big-nav-bar').classList.add('d-lg-block');
+                document.getElementById('small-nav-bar').classList.add('d-lg-none');
+                document.getElementById('small-nav-bar').classList.add('d-xl-none');
+                document.getElementById('main-div').classList.remove('add-margin');
+            }
+        }
+    </script>
 </body>
 
 </html>
