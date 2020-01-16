@@ -191,10 +191,102 @@ time {
   top: 0;
 }
 
+.label-info {
+  background-color: white;
+  bottom: 0;
+  left: 0;
+}
+
+.height-min-content {
+  height: min-content;
+}
+
+.width-col {
+  width: 25%;
+  border: 1px solid black;
+  height: 330px;
+}
+
+.f-size--1-7 {
+  font-size: 1.7rem;
+}
+
+.f-size--2-3 {
+  font-size: 2.3rem !important;
+}
+
+.f-size--1-25 {
+  font-size: 1.25rem;
+}
+
+.f-size--4 {
+  font-size: 4rem !important;
+}
+
+.in-magazine {
+  position: relative;
+  top: -20px;
+}
+
+.p-5 {
+  padding: 2rem;
+}
+
+.position-absolut-o {
+  position: absolute;
+  bottom: 36px;
+  width: max-content;
+  left: 15px;
+  padding: 5px;
+}
+
+.position-play-btn {
+  bottom: 0;
+}
+
+.col-bk-black {
+  background-color: black;
+}
+
+.md-news-bk {
+  background: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20");
+}
+
+.img-bk-right-0 {
+  background: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
+}
+
+.img-bk-right-1 {
+  background-image: url("https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f");
+}
+
+.bk-prop {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  object-position: center;
+}
+
+.min-h-350 {
+  min-height: 350px;
+}
+
+.flex-op {
+  flex: 0;
+  flex-grow: 1;
+}
+
 @media only screen and (min-width: 992px) {
   .position-sticky-o {
     height: min-content;
     position: sticky;
     top: 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .in-magazine {
+    position: unset;
   }
 }
