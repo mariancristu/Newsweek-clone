@@ -256,6 +256,10 @@ time {
   background-color: black;
 }
 
+.col-bk-white {
+  background-color: white;
+}
+
 .md-news-bk {
   background: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20");
 }
@@ -275,6 +279,10 @@ time {
 
 .min-h-350 {
   min-height: 350px;
+}
+
+.min-h-265 {
+  min-height: 265px;
 }
 
 .flex-op {
@@ -300,6 +308,11 @@ time {
 .pos-nr {
   top: -4px;
   left: 3px;
+}
+
+.pos-subscribe {
+  top: 30px;
+  left: 60px;
 }
 
 @media only screen and (min-width: 992px) {
