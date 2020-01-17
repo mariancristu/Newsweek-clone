@@ -232,6 +232,14 @@ time {
   padding: 2rem;
 }
 
+.mb-5 {
+  margin-bottom: 2.5rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 5rem !important;
+}
+
 .position-absolut-o {
   position: absolute;
   bottom: 36px;
@@ -252,20 +260,17 @@ time {
   background: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20");
 }
 
-.img-bk-right-0 {
-  background: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
-}
-
-.img-bk-right-1 {
-  background-image: url("https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f");
-}
-
 .bk-prop {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
   object-position: center;
+}
+
+.img-prop {
+  image-rendering: auto;
+  object-fit: cover;
 }
 
 .min-h-350 {
@@ -275,6 +280,26 @@ time {
 .flex-op {
   flex: 0;
   flex-grow: 1;
+}
+
+.bk-slide {
+  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slideshow-prop {
+  background-clip: content-box;
+  border: 3px solid #fd0606;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  padding: 0 2px 2px 0 !important;
+}
+
+.pos-nr {
+  top: -4px;
+  left: 3px;
 }
 
 @media only screen and (min-width: 992px) {
