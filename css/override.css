@@ -240,6 +240,10 @@ time {
   margin-bottom: 5rem !important;
 }
 
+.p-left-0 {
+  padding-left: 0 !important;
+}
+
 .position-absolut-o {
   position: absolute;
   bottom: 36px;
@@ -281,13 +285,21 @@ time {
   min-height: 350px;
 }
 
-.min-h-265 {
-  min-height: 265px;
+.min-h-270 {
+  min-height: 270px;
+}
+
+.max-h-150 {
+  max-height: 150px !important;
 }
 
 .flex-op {
   flex: 0;
   flex-grow: 1;
+}
+
+.flex-1 {
+  flex: 1;
 }
 
 .bk-slide {
@@ -311,8 +323,12 @@ time {
 }
 
 .pos-subscribe {
-  top: 30px;
-  left: 60px;
+  top: 45px;
+  left: 50px;
+}
+
+.news-week-img {
+  height: calc(100% - 33.5px) !important;
 }
 
 @media only screen and (min-width: 992px) {
@@ -320,6 +336,10 @@ time {
     height: min-content;
     position: sticky;
     top: 0;
+  }
+
+  .h-min-100 {
+    height: 100%;
   }
 }
 
