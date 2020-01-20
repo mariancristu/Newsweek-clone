@@ -47,7 +47,7 @@ html {
 }
 
 .font-Ubuntu {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .menu-dropdown-img {
@@ -323,8 +323,8 @@ time {
 }
 
 .pos-subscribe {
-  top: 45px;
-  left: 50px;
+  top: 15px;
+  left: 80px;
 }
 
 .news-week-img {
@@ -343,8 +343,18 @@ time {
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .in-magazine {
     position: unset;
+  }
+
+  .news-week-img {
+    height: inherit !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .h-150 {
+    height: 150px !important;
   }
 }
