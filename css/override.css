@@ -1,0 +1,360 @@
+html {
+  font-size: 62.5%;
+}
+
+.container-1310 {
+  max-width: 1310px;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.news-font-size {
+  font-size: 5rem;
+}
+
+.color-bk-red {
+  background-color: rgb(255, 47, 47);
+}
+
+.white-space-no-wrap {
+  white-space: nowrap;
+}
+
+.btn-white {
+  background-color: white;
+  border: 1px solid rgb(241, 241, 241);
+}
+
+.btn-font-size {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.col-red {
+  color: rgb(255, 47, 47);
+}
+
+.col-white {
+  color: white !important;
+}
+
+.col-black {
+  color: black !important;
+}
+
+.font-Ubuntu {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.menu-dropdown-img {
+  color: rgb(207, 207, 207);
+  font-size: 2.5rem;
+}
+
+.fa {
+  color: inherit;
+}
+
+.dropdown-menu {
+  font-size: 1.6rem;
+  min-width: 18rem;
+}
+
+.dropdown-item {
+  font-weight: bold;
+}
+
+.search-input {
+  background-color: transparent;
+  border-radius: 3px;
+  border: none;
+  width: 100%;
+}
+
+.sections-font-size {
+  font-size: 1.5rem;
+  color: rgb(139, 139, 139);
+}
+
+.section-info-font-size {
+  font-size: 2rem;
+}
+
+.p-font-size {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.p-info-font-size {
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.a-font-size {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.a-font-size:hover {
+  text-decoration-color: red;
+  color: black;
+}
+
+.search-container {
+  max-width: 150px;
+}
+
+.search-container-lg {
+  width: 100px;
+}
+
+time {
+  font-size: 1.25rem;
+}
+
+.corner {
+  height: 15px;
+  width: 80px;
+  right: 0;
+  top: 75px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 16% 100%);
+}
+
+.w-90 {
+  max-width: 90%;
+}
+
+.menu-lg-screen a:hover {
+  color: rgb(255, 47, 47);
+}
+
+.info-left-bottom {
+  height: 35px;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  left: 0;
+  line-height: 35px;
+}
+
+.color-hover-red-link:hover {
+  color: rgb(255, 47, 47) !important;
+}
+
+.color-hover-black-link:hover {
+  color: black;
+}
+
+.color-underline-red-hover:hover {
+  text-decoration-color: red;
+  text-decoration-style: solid;
+}
+
+.color-bk-gray {
+  background-color: rgb(241, 241, 241);
+}
+
+.line-h-25 {
+  line-height: 25px;
+}
+
+.line-h-20 {
+  line-height: 20px;
+}
+
+.btn-primary {
+  background-color: rgb(224, 224, 255);
+  border-color: rgb(243, 243, 247);
+}
+
+.line-h-15 {
+  line-height: 15px;
+}
+
+.img-size-color {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 47, 47);
+}
+
+.add-margin {
+  margin-top: 100px;
+}
+
+.position-sticky-o {
+  height: min-content;
+  position: unset;
+  top: 0;
+}
+
+.label-info {
+  background-color: white;
+  bottom: 0;
+  left: 0;
+}
+
+.height-min-content {
+  height: min-content;
+}
+
+.width-col {
+  width: 25%;
+  border: 1px solid black;
+  height: 330px;
+}
+
+.f-size--1-7 {
+  font-size: 1.7rem;
+}
+
+.f-size--2-3 {
+  font-size: 2.3rem !important;
+}
+
+.f-size--1-25 {
+  font-size: 1.25rem;
+}
+
+.f-size--4 {
+  font-size: 4rem !important;
+}
+
+.in-magazine {
+  position: relative;
+  top: -20px;
+}
+
+.p-5 {
+  padding: 2rem;
+}
+
+.mb-5 {
+  margin-bottom: 2.5rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 5rem !important;
+}
+
+.p-left-0 {
+  padding-left: 0 !important;
+}
+
+.position-absolut-o {
+  position: absolute;
+  bottom: 36px;
+  width: max-content;
+  left: 15px;
+  padding: 5px;
+}
+
+.position-play-btn {
+  bottom: 0;
+}
+
+.col-bk-black {
+  background-color: black;
+}
+
+.col-bk-white {
+  background-color: white;
+}
+
+.md-news-bk {
+  background: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20");
+}
+
+.bk-prop {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-prop {
+  image-rendering: auto;
+  object-fit: cover;
+}
+
+.min-h-350 {
+  min-height: 350px;
+}
+
+.min-h-270 {
+  min-height: 270px;
+}
+
+.max-h-150 {
+  max-height: 150px !important;
+}
+
+.flex-op {
+  flex: 0;
+  flex-grow: 1;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.bk-slide {
+  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slideshow-prop {
+  background-clip: content-box;
+  border: 3px solid #fd0606;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  padding: 0 2px 2px 0 !important;
+}
+
+.pos-nr {
+  top: -4px;
+  left: 3px;
+}
+
+.pos-subscribe {
+  top: 15px;
+  left: 80px;
+}
+
+.news-week-img {
+  height: calc(100% - 33.5px) !important;
+}
+
+@media only screen and (min-width: 992px) {
+  .position-sticky-o {
+    height: min-content;
+    position: sticky;
+    top: 0;
+  }
+
+  .h-min-100 {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .in-magazine {
+    position: unset;
+  }
+
+  .news-week-img {
+    height: inherit !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .h-150 {
+    height: 150px !important;
+  }
+}
